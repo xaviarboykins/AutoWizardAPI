@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the documentation for AutoWizardAPI, an open-source API that provides car diagnostic services. This API allows developers to retrieve Diagnostic Trouble Codes (DTC) and access related information for various car makes and models. With AutoWizardAPI, you can incorporate car diagnostic capabilities into your applications without the need for an API key.
+Welcome to the documentation for the AutoWizardAPI, an open-source API that provides car diagnostic services. This API allows developers to retrieve Diagnostic Trouble Codes (DTC) and access related information for various car makes and models. With AutoWizardAPI, you can incorporate car diagnostic capabilities into your applications without the need for an API key.
 
 ## Purpose
 
@@ -18,17 +18,17 @@ The purpose of AutoWizardAPI is to provide developers with a flexible and transp
 
 ## Getting Started
 
-To get started with AutoWizardAPI, follow these steps:
+To get started with the AutoWizardAPI, follow these steps:
 
-To get started with the AutoWizardAPI, simply clone or download the API source code from the official repository on GitHub. The source code is openly available, allowing you to explore, modify, and adapt the API to suit your specific needs. The repository also contains documentation, examples, and resources to help you understand and utilize the API effectively.
+1. Clone or download the API source code from the official repository on GitHub. The source code is openly available, allowing you to explore, modify, and adapt the API to suit your specific needs. The repository also contains documentation, examples, and resources to help you understand and utilize the API effectively.
 
-Please refer to the sections below for detailed information on the API endpoints, request/response formats, and error handling.
-
-1. Clone or download the API source code from the official repository on GitHub.
 2. Install the required NuGet packages, including `Microsoft.AspNetCore.Mvc`, `Microsoft.EntityFrameworkCore`, `Microsoft.EntityFrameworkCore.SqlServer`, `Swashbuckle.AspNetCore`, and `Newtonsoft.Json`.
+
 3. Make sure you have the necessary software installed, including the Microsoft .NET SDK, Visual Studio (or Visual Studio Code), and SQL Server if you plan to use it as the database.
+
 4. Set up your development environment and configure the API according to your requirements.
-5. Explore the API endpoints, request/response formats, and error handling to understand how to interact with AutoWizardAPI effectively.
+
+5. Explore the API endpoints, request/response formats, and error handling to understand how to interact with the AutoWizardAPI effectively.
 
 ### Version History
 
@@ -39,7 +39,7 @@ Please refer to the sections below for detailed information on the API endpoints
   - Ability to retrieve all DTC codes and search for specific codes by providing the code as a parameter.
   - Proper error handling and HTTP status code responses.
   - Support for JSON serialization and deserialization.
-  - Integration with a MSSQL database for storing DTC code information.
+  - Integration with an MSSQL database for storing DTC code information.
   - Implementation of error handling for cases where invalid or nonexistent DTC codes are requested.
   - API endpoints for interacting with the DTC code data.
 
@@ -58,10 +58,11 @@ Stay tuned for future releases of the AutoWizardAPI as we continue to enhance an
 
 ## Feedback and Contributions
 
-AutoWizardAPI is a solo-driven project, and your feedback, suggestions, and contributions are valuable. If you encounter any issues, have ideas for improvements, or would like to contribute to the development of the API, please feel free to reachout xaviarboykins@outlook.com.
+AutoWizardAPI is a solo-driven project, and your feedback, suggestions, and contributions are valuable. If you encounter any issues, have ideas for improvements, or would like to contribute to the development of
+
+ the API, please feel free to reach out to xaviarboykins@outlook.com.
 
 Let's leverage the power of car diagnostics together with the open-source AutoWizardAPI!
-
 
 ## AutoWizardAPI Endpoints
 
@@ -127,4 +128,3 @@ Retrieve details for a specific DTC code.
 - `200 OK`: The request was successful, and the response body contains the requested DTC code information.
 - `404 Not Found`: The requested DTC code does not exist or could not be found.
 - `500 Internal Server Error`: An unexpected error occurred while processing the request. The response body may contain additional error details.
-
