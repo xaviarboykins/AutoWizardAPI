@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the documentation for the AutoWizardAPI, an open-source API that provides car diagnostic services. This API allows developers to retrieve Diagnostic Trouble Codes (DTC) and access related information for various car makes and models. With AutoWizardAPI, you can incorporate car diagnostic capabilities into your applications without the need for an API key.
+Welcome to the documentation for the AutoWizardAPI, an open-source API that provides car diagnostic services. This API allows developers to retrieve Diagnostic Trouble Codes (DTC) and access related information. With AutoWizardAPI, you can incorporate car diagnostic capabilities into your applications without the need for an API key.
 
 ## Purpose
 
